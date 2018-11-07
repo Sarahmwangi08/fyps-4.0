@@ -270,16 +270,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit-library-assets.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="edit-library-assets.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/edit-library-assets.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="1278" column="7" lean-forward="true" selection-start-line="1278" selection-start-column="7" selection-end-line="1278" selection-end-column="7" />
+            <state relative-caret-position="-12574">
+              <caret line="101" column="33" lean-forward="true" selection-start-line="99" selection-start-column="23" selection-end-line="101" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editLibraryAsset.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="editLibraryAsset.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/editLibraryAsset.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="564">
@@ -391,8 +391,8 @@
         <option value="$PROJECT_DIR$/add-professor.html" />
         <option value="$PROJECT_DIR$/add-library-assets.html" />
         <option value="$PROJECT_DIR$/js/addLibraryAsset.js" />
-        <option value="$PROJECT_DIR$/edit-library-assets.html" />
         <option value="$PROJECT_DIR$/js/editLibraryAsset.js" />
+        <option value="$PROJECT_DIR$/edit-library-assets.html" />
       </list>
     </option>
   </component>
@@ -408,7 +408,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1366" />
     <option name="height" value="768" />
   </component>
@@ -480,18 +480,17 @@
       <workItem from="1541505230569" duration="1030000" />
       <workItem from="1541506501394" duration="3352000" />
       <workItem from="1541511463592" duration="15177000" />
-      <workItem from="1541567161509" duration="2527000" />
+      <workItem from="1541567161509" duration="3369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82440000" />
+    <option name="totallyTimeSpent" value="83282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13993949" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13993949" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5024233" side_tool="true" weight="0.3488372" />
@@ -500,7 +499,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49757674" weight="0.34674922" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49757674" visible="true" weight="0.34674922" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="DB Execution Console" order="13" />
@@ -876,13 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edit-library-assets.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="1278" column="7" lean-forward="true" selection-start-line="1278" selection-start-column="7" selection-end-line="1278" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/addLibraryAsset.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -894,6 +886,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
           <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit-library-assets.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12574">
+          <caret line="101" column="33" lean-forward="true" selection-start-line="99" selection-start-column="23" selection-end-line="101" selection-end-column="33" />
         </state>
       </provider>
     </entry>
