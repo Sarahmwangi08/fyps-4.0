@@ -1,10 +1,11 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="en">
+
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>All Students | Kiaalap - Kiaalap Admin Template</title>
+    <title>All Professor | Kiaalap - Kiaalap Admin Template</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon
@@ -91,22 +92,22 @@
                                 <!--<li><a title="Widgets" href="widgets.html"><span class="mini-sub-pro">Widgets</span></a></li>-->
                             </ul>
                         </li>
-                        <li>
-                            <a title="Landing Page" href="events.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Event</span></a>
-                        </li>
-                        <li>
-                            <a class="has-arrow" href="all-professors.html" aria-expanded="false"><span class="educate-icon educate-professor icon-wrap"></span> <span class="mini-click-non">Supervisors</span></a>
+                        <!--<li>-->
+                            <!--<a title="Landing Page" href="events.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Event</span></a>-->
+                        <!--</li>-->
+                        <li class="active">
+                            <a class="has-arrow" href="all-professors.php" aria-expanded="false"><span class="educate-icon educate-professor icon-wrap"></span> <span class="mini-click-non">Professors</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="All Professors" href="all-professors.html"><span class="mini-sub-pro">All Supervisors</span></a></li>
-                                <li><a title="Add Professor" href="add-professor.html"><span class="mini-sub-pro">Add Supervisor</span></a></li>
-                                <!--<li><a title="Edit Professor" href="edit-professor.html"><span class="mini-sub-pro">Edit Professor</span></a></li>-->
-                                <!--<li><a title="Professor Profile" href="professor-profile.html"><span class="mini-sub-pro">Professor Profile</span></a></li>-->
+                                <li><a title="All Professors" href="all-professors.php"><span class="mini-sub-pro">All Supervisors</span></a></li>
+                                <li><a title="Add Professor" href="add-professor.php"><span class="mini-sub-pro">Add Supervisors</span></a></li>
+                                <!--<li><a title="Edit Professor" href="edit-professor.html"><span class="mini-sub-pro">Edit Supervisors</span></a></li>-->
+                                <!--<li><a title="Professor Profile" href="professor-profile.html"><span class="mini-sub-pro">Supervisors Profile</span></a></li>-->
                             </ul>
                         </li>
-                        <li class="active">
-                            <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Students</span></a>
+                        <li>
+                            <a class="has-arrow" href="all-students.php" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Students</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="All Students" href="all-students.html"><span class="mini-sub-pro">All Students</span></a></li>
+                                <li><a title="All Students" href="all-students.php"><span class="mini-sub-pro">All Students</span></a></li>
                                 <li><a title="Add Students" href="add-student.html"><span class="mini-sub-pro">Add Student</span></a></li>
                                 <!--<li><a title="Edit Students" href="edit-student.html"><span class="mini-sub-pro">Edit Student</span></a></li>-->
                                 <!--<li><a title="Students Profile" href="student-profile.html"><span class="mini-sub-pro">Student Profile</span></a></li>-->
@@ -123,11 +124,11 @@
                             <!--</ul>-->
                         <!--</li>-->
                         <li>
-                            <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Materials</span></a>
+                            <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Material</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
                                 <li><a title="All Library" href="library-assets.html"><span class="mini-sub-pro">All Materials</span></a></li>
                                 <li><a title="Add Library" href="add-library-assets.html"><span class="mini-sub-pro">Add Material</span></a></li>
-                                <li><a title="Edit Library" href="edit-library-assets.html"><span class="mini-sub-pro">Edit Materials</span></a></li>
+                                <li><a title="Edit Library" href="edit-library-assets.html"><span class="mini-sub-pro">Edit Material</span></a></li>
                             </ul>
                         </li>
                         <!--<li>-->
@@ -397,13 +398,13 @@
 														</a>
                                                     <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
                                                         <!--<li><a href="#"><span class="edu-icon edu-home-admin author-log-ic"></span>My Account</a>-->
-                                                        <!--</li>-->
+                                                        </li>
                                                         <li><a href="#"><span class="edu-icon edu-user-rounded author-log-ic"></span>My Profile</a>
                                                         </li>
                                                         <!--<li><a href="#"><span class="edu-icon edu-money author-log-ic"></span>User Billing</a>-->
-                                                        <!--</li>-->
+                                                        </li>
                                                         <!--<li><a href="#"><span class="edu-icon edu-settings author-log-ic"></span>Settings</a>-->
-                                                        <!--</li>-->
+                                                        </li>
                                                         <li><a href="logoutBtn"><span class="edu-icon edu-locked author-log-ic"></span>Log Out</a>
                                                         </li>
                                                     </ul>
@@ -871,29 +872,29 @@
                                                 <!--<li><a href="widgets.html">Widgets</a></li>-->
                                             </ul>
                                         </li>
-                                        <li><a href="events.html">Event</a></li>
-                                        <li><a data-toggle="collapse" data-target="#demoevent" href="#">Supervisors <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                        <!--<li><a href="events.html">Event</a></li>-->
+                                        <li><a data-toggle="collapse" data-target="#demoevent" href="#">Professors <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             <ul id="demoevent" class="collapse dropdown-header-top">
-                                                <li><a href="all-professors.html">All Supervisors</a>
+                                                <li><a href="all-professors.php">All Supervisors</a>
                                                 </li>
-                                                <li><a href="add-professor.html">Add Supervisor</a>
+                                                <li><a href="add-professor.php">Add Supervisors</a>
                                                 </li>
-                                                <!--<li><a href="edit-professor.html">Edit Professor</a>-->
-                                                <!--</li>-->
-                                                <!--<li><a href="professor-profile.html">Professor Profile</a>-->
-                                                <!--</li>-->
+                                                <li><a href="edit-professor.html">Edit Supervisors</a>
+                                                </li>
+                                                <li><a href="professor-profile.html">Supervisors Profile</a>
+                                                </li>
                                             </ul>
                                         </li>
                                         <li><a data-toggle="collapse" data-target="#demopro" href="#">Students <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             <ul id="demopro" class="collapse dropdown-header-top">
-                                                <li><a href="all-students.html">All Students</a>
+                                                <li><a href="all-students.php">All Students</a>
                                                 </li>
                                                 <li><a href="add-student.html">Add Student</a>
                                                 </li>
-                                                <!--<li><a href="edit-student.html">Edit Student</a>-->
-                                                <!--</li>-->
-                                                <!--<li><a href="student-profile.html">Student Profile</a>-->
-                                                <!--</li>-->
+                                                <li><a href="edit-student.html">Edit Student</a>
+                                                </li>
+                                                <li><a href="student-profile.html">Student Profile</a>
+                                                </li>
                                             </ul>
                                         </li>
                                         <!--<li><a data-toggle="collapse" data-target="#democrou" href="#">Courses <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>-->
@@ -912,7 +913,7 @@
                                         <!--</li>-->
                                         <li><a data-toggle="collapse" data-target="#demolibra" href="#">Materials <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             <ul id="demolibra" class="collapse dropdown-header-top">
-                                                <li><a href="library-assets.html">Materials</a>
+                                                <li><a href="library-assets.html">All Materials</a>
                                                 </li>
                                                 <li><a href="add-library-assets.html">Add Materials</a>
                                                 </li>
@@ -1058,7 +1059,7 @@
                                         <ul class="breadcome-menu">
                                             <li><a href="#">Home</a> <span class="bread-slash">/</span>
                                             </li>
-                                            <li><span class="bread-blod">All Students</span>
+                                            <li><span class="bread-blod">All Supervisors</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -1069,157 +1070,282 @@
                 </div>
             </div>
         </div>
-
+        <div class="contacts-area mg-b-15">
             <div class="container-fluid">
-                <div class="contacts-area mg-b-15">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="sparkline12-list mg-b-30">
-                                <div class="sparkline12-hd">
-                                    <div class="main-sparkline12-hd">
-                                        <h1>ALL STUDENTS</h1>
+                <div class="row">
+                    <div class="container-fluid">
+                        <div class="contacts-area mg-b-15">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="sparkline12-list mg-b-30">
+                                        <div class="sparkline12-hd">
+                                            <div class="main-sparkline12-hd">
+                                                <h1>ALL SUPERVISORS</h1>
+                                            </div>
+                                        </div>
+                                        <div class="sparkline12-graph">
+                                            <div class="static-table-list">
+                                                <table class="table hover-table">
+                                                    <thead>
+                                                    <tr>
+                                                        <th>ID</th>
+                                                        <th>First Name</th>
+                                                        <th>Last Name</th>
+                                                        <th>Email Address</th>
+                                                        <th>Admission Id</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <?php include "php/getProfs.php";
+                                                    ?>
+
+                                                </table>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="sparkline12-graph">
-                                    <div class="static-table-list">
-                                        <table class="table hover-table">
-                                            <thead>
-                                            <tr>
-                                                <th>ID</th>
-                                                <th>Admission Number</th>
-                                                <th>First Name</th>
-                                                <th>Last Name</th>
-                                                <th>Email</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>086784</td>
-                                                <td>Mamun</td>
-                                                <td>Roshid</td>
-                                                <td>mamunr@strathmore.edu</td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>086784</td>
-                                                <td>Mamun</td>
-                                                <td>Roshid</td>
-                                                <td>mamunr@strathmore.edu</td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>086784</td>
-                                                <td>Mamun</td>
-                                                <td>Roshid</td>
-                                                <td>mamunr@strathmore.edu</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                <!--<div class="row">-->
                     <!--<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">-->
-                        <!--<div class="student-inner-std res-mg-b-30">-->
-                            <!--<div class="student-img">-->
-                                <!--<img src="img/student/1.jpg" alt="" />-->
+                        <!--<div class="hpanel hblue contact-panel contact-panel-cs responsive-mg-b-30">-->
+                            <!--<div class="panel-body custom-panel-jw">-->
+                                <!--<div class="social-media-in">-->
+                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>-->
+                                    <!--<a href="#"><i class="fa fa-twitter"></i></a>-->
+                                    <!--<a href="#"><i class="fa fa-pinterest"></i></a>-->
+                                <!--</div>-->
+                                <!--<img alt="logo" class="img-circle m-b" src="img/contact/1.jpg">-->
+                                <!--<h3><a href="">John Alva</a></h3>-->
+                                <!--<p class="all-pro-ad">London, LA</p>-->
+                                <!--<p>-->
+                                    <!--Lorem ipsum dolor sit amet of, consectetur adipiscing elitable. Vestibulum tincidunt est vitae ultrices accumsan.-->
+                                <!--</p>-->
                             <!--</div>-->
-                            <!--<div class="student-dtl">-->
-                                <!--<h2>Alexam Angles</h2>-->
-                                <!--<p class="dp">Computer Science</p>-->
-                                <!--<p class="dp-ag"><b>Age:</b> 20 Years</p>-->
+                            <!--<div class="panel-footer contact-footer">-->
+                                <!--<div class="professor-stds-int">-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Likes: </span> <strong>956</strong></div>-->
+                                    <!--</div>-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Comments: </span> <strong>350</strong></div>-->
+                                    <!--</div>-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Views: </span> <strong>450</strong></div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
                             <!--</div>-->
                         <!--</div>-->
                     <!--</div>-->
                     <!--<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">-->
-                        <!--<div class="student-inner-std res-mg-b-30">-->
-                            <!--<div class="student-img">-->
-                                <!--<img src="img/student/2.jpg" alt="" />-->
+                        <!--<div class="hpanel hblue contact-panel contact-panel-cs responsive-mg-b-30">-->
+                            <!--<div class="panel-body custom-panel-jw">-->
+                                <!--<div class="social-media-in">-->
+                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>-->
+                                    <!--<a href="#"><i class="fa fa-twitter"></i></a>-->
+                                    <!--<a href="#"><i class="fa fa-pinterest"></i></a>-->
+                                <!--</div>-->
+                                <!--<img alt="logo" class="img-circle m-b" src="img/contact/2.jpg">-->
+                                <!--<h3><a href="">Amir dex</a></h3>-->
+                                <!--<p class="all-pro-ad">Pakistan, Los</p>-->
+                                <!--<p>-->
+                                    <!--Lorem ipsum dolor sit amet of, consectetur adipiscing elitable. Vestibulum tincidunt est vitae ultrices accumsan.-->
+                                <!--</p>-->
                             <!--</div>-->
-                            <!--<div class="student-dtl">-->
-                                <!--<h2>Alexam Angles</h2>-->
-                                <!--<p class="dp">Computer Science</p>-->
-                                <!--<p class="dp-ag"><b>Age:</b> 20 Years</p>-->
+                            <!--<div class="panel-footer contact-footer">-->
+                                <!--<div class="professor-stds-int">-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Likes: </span> <strong>956</strong></div>-->
+                                    <!--</div>-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Comments: </span> <strong>350</strong></div>-->
+                                    <!--</div>-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Views: </span> <strong>450</strong></div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
                             <!--</div>-->
                         <!--</div>-->
                     <!--</div>-->
                     <!--<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">-->
-                        <!--<div class="student-inner-std res-mg-b-30 res-tablet-mg-t-30 dk-res-t-pro-30">-->
-                            <!--<div class="student-img">-->
-                                <!--<img src="img/student/3.jpg" alt="" />-->
+                        <!--<div class="hpanel hblue contact-panel contact-panel-cs responsive-mg-b-30 res-tablet-mg-t-30 dk-res-t-pro-30">-->
+                            <!--<div class="panel-body custom-panel-jw">-->
+                                <!--<div class="social-media-in">-->
+                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>-->
+                                    <!--<a href="#"><i class="fa fa-twitter"></i></a>-->
+                                    <!--<a href="#"><i class="fa fa-pinterest"></i></a>-->
+                                <!--</div>-->
+                                <!--<img alt="logo" class="img-circle m-b" src="img/contact/3.jpg">-->
+                                <!--<h3><a href="">Alva Adition</a></h3>-->
+                                <!--<p class="all-pro-ad">India, Col</p>-->
+                                <!--<p>-->
+                                    <!--Lorem ipsum dolor sit amet of, consectetur adipiscing elitable. Vestibulum tincidunt est vitae ultrices accumsan.-->
+                                <!--</p>-->
                             <!--</div>-->
-                            <!--<div class="student-dtl">-->
-                                <!--<h2>Alexam Angles</h2>-->
-                                <!--<p class="dp">Computer Science</p>-->
-                                <!--<p class="dp-ag"><b>Age:</b> 20 Years</p>-->
+                            <!--<div class="panel-footer contact-footer">-->
+                                <!--<div class="professor-stds-int">-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Likes: </span> <strong>956</strong></div>-->
+                                    <!--</div>-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Comments: </span> <strong>350</strong></div>-->
+                                    <!--</div>-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Views: </span> <strong>450</strong></div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
                             <!--</div>-->
                         <!--</div>-->
                     <!--</div>-->
                     <!--<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">-->
-                        <!--<div class="student-inner-std res-tablet-mg-t-30 dk-res-t-pro-30">-->
-                            <!--<div class="student-img">-->
-                                <!--<img src="img/student/4.jpg" alt="" />-->
+                        <!--<div class="hpanel hblue contact-panel contact-panel-cs res-tablet-mg-t-30 dk-res-t-pro-30">-->
+                            <!--<div class="panel-body custom-panel-jw">-->
+                                <!--<div class="social-media-in">-->
+                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>-->
+                                    <!--<a href="#"><i class="fa fa-twitter"></i></a>-->
+                                    <!--<a href="#"><i class="fa fa-pinterest"></i></a>-->
+                                <!--</div>-->
+                                <!--<img alt="logo" class="img-circle m-b" src="img/contact/4.jpg">-->
+                                <!--<h3><a href="">Sex Dog</a></h3>-->
+                                <!--<p class="all-pro-ad">Uk, LA</p>-->
+                                <!--<p>-->
+                                    <!--Lorem ipsum dolor sit amet of, consectetur adipiscing elitable. Vestibulum tincidunt est vitae ultrices accumsan.-->
+                                <!--</p>-->
                             <!--</div>-->
-                            <!--<div class="student-dtl">-->
-                                <!--<h2>Alexam Angles</h2>-->
-                                <!--<p class="dp">Computer Science</p>-->
-                                <!--<p class="dp-ag"><b>Age:</b> 20 Years</p>-->
+                            <!--<div class="panel-footer contact-footer">-->
+                                <!--<div class="professor-stds-int">-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Likes: </span> <strong>956</strong></div>-->
+                                    <!--</div>-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Comments: </span> <strong>350</strong></div>-->
+                                    <!--</div>-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Views: </span> <strong>450</strong></div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
                             <!--</div>-->
                         <!--</div>-->
                     <!--</div>-->
                 <!--</div>-->
                 <!--<div class="row">-->
                     <!--<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">-->
-                        <!--<div class="student-inner-std mg-t-30">-->
-                            <!--<div class="student-img">-->
-                                <!--<img src="img/student/1.jpg" alt="" />-->
+                        <!--<div class="hpanel hblue contact-panel contact-panel-cs mg-t-30">-->
+                            <!--<div class="panel-body custom-panel-jw">-->
+                                <!--<div class="social-media-in">-->
+                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>-->
+                                    <!--<a href="#"><i class="fa fa-twitter"></i></a>-->
+                                    <!--<a href="#"><i class="fa fa-pinterest"></i></a>-->
+                                <!--</div>-->
+                                <!--<img alt="logo" class="img-circle m-b" src="img/contact/1.jpg">-->
+                                <!--<h3><a href="">Fox Well</a></h3>-->
+                                <!--<p class="all-pro-ad">California, LA</p>-->
+                                <!--<p>-->
+                                    <!--Lorem ipsum dolor sit amet of, consectetur adipiscing elitable. Vestibulum tincidunt est vitae ultrices accumsan.-->
+                                <!--</p>-->
                             <!--</div>-->
-                            <!--<div class="student-dtl">-->
-                                <!--<h2>Alexam Angles</h2>-->
-                                <!--<p class="dp">Computer Science</p>-->
-                                <!--<p class="dp-ag"><b>Age:</b> 20 Years</p>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                    <!--<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">-->
-                        <!--<div class="student-inner-std mg-t-30">-->
-                            <!--<div class="student-img">-->
-                                <!--<img src="img/student/2.jpg" alt="" />-->
-                            <!--</div>-->
-                            <!--<div class="student-dtl">-->
-                                <!--<h2>Alexam Angles</h2>-->
-                                <!--<p class="dp">Computer Science</p>-->
-                                <!--<p class="dp-ag"><b>Age:</b> 20 Years</p>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                    <!--<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">-->
-                        <!--<div class="student-inner-std mg-t-30">-->
-                            <!--<div class="student-img">-->
-                                <!--<img src="img/student/3.jpg" alt="" />-->
-                            <!--</div>-->
-                            <!--<div class="student-dtl">-->
-                                <!--<h2>Alexam Angles</h2>-->
-                                <!--<p class="dp">Computer Science</p>-->
-                                <!--<p class="dp-ag"><b>Age:</b> 20 Years</p>-->
+                            <!--<div class="panel-footer contact-footer">-->
+                                <!--<div class="professor-stds-int">-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Likes: </span> <strong>956</strong></div>-->
+                                    <!--</div>-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Comments: </span> <strong>350</strong></div>-->
+                                    <!--</div>-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Views: </span> <strong>450</strong></div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
                             <!--</div>-->
                         <!--</div>-->
                     <!--</div>-->
                     <!--<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">-->
-                        <!--<div class="student-inner-std mg-t-30">-->
-                            <!--<div class="student-img">-->
-                                <!--<img src="img/student/4.jpg" alt="" />-->
+                        <!--<div class="hpanel hblue contact-panel contact-panel-cs mg-t-30">-->
+                            <!--<div class="panel-body custom-panel-jw">-->
+                                <!--<div class="social-media-in">-->
+                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>-->
+                                    <!--<a href="#"><i class="fa fa-twitter"></i></a>-->
+                                    <!--<a href="#"><i class="fa fa-pinterest"></i></a>-->
+                                <!--</div>-->
+                                <!--<img alt="logo" class="img-circle m-b" src="img/contact/3.jpg">-->
+                                <!--<h3><a href="">Drom Simson</a></h3>-->
+                                <!--<p class="all-pro-ad">Austrolia, LA</p>-->
+                                <!--<p>-->
+                                    <!--Lorem ipsum dolor sit amet of, consectetur adipiscing elitable. Vestibulum tincidunt est vitae ultrices accumsan.-->
+                                <!--</p>-->
                             <!--</div>-->
-                            <!--<div class="student-dtl">-->
-                                <!--<h2>Alexam Angles</h2>-->
-                                <!--<p class="dp">Computer Science</p>-->
-                                <!--<p class="dp-ag"><b>Age:</b> 20 Years</p>-->
+                            <!--<div class="panel-footer contact-footer">-->
+                                <!--<div class="professor-stds-int">-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Likes: </span> <strong>956</strong></div>-->
+                                    <!--</div>-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Comments: </span> <strong>350</strong></div>-->
+                                    <!--</div>-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Views: </span> <strong>450</strong></div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
                             <!--</div>-->
                         <!--</div>-->
                     <!--</div>-->
-                <!--</div>-->
+                    <!--<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">-->
+                        <!--<div class="hpanel hblue contact-panel contact-panel-cs mg-t-30">-->
+                            <!--<div class="panel-body custom-panel-jw">-->
+                                <!--<div class="social-media-in">-->
+                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>-->
+                                    <!--<a href="#"><i class="fa fa-twitter"></i></a>-->
+                                    <!--<a href="#"><i class="fa fa-pinterest"></i></a>-->
+                                <!--</div>-->
+                                <!--<img alt="logo" class="img-circle m-b" src="img/contact/2.jpg">-->
+                                <!--<h3><a href="">Sima son</a></h3>-->
+                                <!--<p class="all-pro-ad">Suiden, Cro</p>-->
+                                <!--<p>-->
+                                    <!--Lorem ipsum dolor sit amet of, consectetur adipiscing elitable. Vestibulum tincidunt est vitae ultrices accumsan.-->
+                                <!--</p>-->
+                            <!--</div>-->
+                            <!--<div class="panel-footer contact-footer">-->
+                                <!--<div class="professor-stds-int">-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Likes: </span> <strong>956</strong></div>-->
+                                    <!--</div>-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Comments: </span> <strong>350</strong></div>-->
+                                    <!--</div>-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Views: </span> <strong>450</strong></div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">-->
+                        <!--<div class="hpanel hblue contact-panel contact-panel-cs mg-t-30">-->
+                            <!--<div class="panel-body custom-panel-jw">-->
+                                <!--<div class="social-media-in">-->
+                                    <!--<a href="#"><i class="fa fa-facebook"></i></a>-->
+                                    <!--<a href="#"><i class="fa fa-twitter"></i></a>-->
+                                    <!--<a href="#"><i class="fa fa-pinterest"></i></a>-->
+                                <!--</div>-->
+                                <!--<img alt="logo" class="img-circle m-b" src="img/contact/4.jpg">-->
+                                <!--<h3><a href="">Drama Son</a></h3>-->
+                                <!--<p class="all-pro-ad">USA, LA</p>-->
+                                <!--<p>-->
+                                    <!--Lorem ipsum dolor sit amet of, consectetur adipiscing elitable. Vestibulum tincidunt est vitae ultrices accumsan.-->
+                                <!--</p>-->
+                            <!--</div>-->
+                            <!--<div class="panel-footer contact-footer">-->
+                                <!--<div class="professor-stds-int">-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Likes: </span> <strong>956</strong></div>-->
+                                    <!--</div>-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Comments: </span> <strong>350</strong></div>-->
+                                    <!--</div>-->
+                                    <!--<div class="professor-stds">-->
+                                        <!--<div class="contact-stat"><span>Views: </span> <strong>450</strong></div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                </div>
             </div>
         </div>
         <div class="footer-copyright-area">
@@ -1234,7 +1360,6 @@
             </div>
         </div>
     </div>
-
     <!-- jquery
 		============================================ -->
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
@@ -1286,8 +1411,8 @@
     <!-- tawk chat JS
 		============================================ -->
     <script src="js/tawk-chat.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"> </script>
-        <script src="js/allStudents.js"></script>
+                <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"> </script>
+                <script src="js/allProfessors.js"></script>
 
 </body>
 

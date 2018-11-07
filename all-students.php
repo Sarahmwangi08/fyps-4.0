@@ -1,10 +1,10 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="zxx">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Add Professor | Kiaalap - Kiaalap Admin Template</title>
+    <title>All Students | Kiaalap - Kiaalap Admin Template</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon
@@ -36,18 +36,12 @@
     <!-- main CSS
 		============================================ -->
     <link rel="stylesheet" href="css/main.css">
-    <!-- forms CSS
-		============================================ -->
-    <link rel="stylesheet" href="css/form/all-type-forms.css">
     <!-- educate icon CSS
 		============================================ -->
     <link rel="stylesheet" href="css/educate-custon-icon.css">
     <!-- morrisjs CSS
 		============================================ -->
     <link rel="stylesheet" href="css/morrisjs/morris.css">
-    <!-- dropzone CSS
-		============================================ -->
-    <link rel="stylesheet" href="css/dropzone/dropzone.css">
     <!-- mCustomScrollbar CSS
 		============================================ -->
     <link rel="stylesheet" href="css/scrollbar/jquery.mCustomScrollbar.min.css">
@@ -97,42 +91,42 @@
                                 <!--<li><a title="Widgets" href="widgets.html"><span class="mini-sub-pro">Widgets</span></a></li>-->
                             </ul>
                         </li>
-                        <!--<li>-->
-                            <!--<a title="Landing Page" href="events.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Event</span></a>-->
-                        <!--</li>-->
-                        <li class="active">
-                            <a class="has-arrow" href="all-professors.html" aria-expanded="false"><span class="educate-icon educate-professor icon-wrap"></span> <span class="mini-click-non">Supervisors</span></a>
-                            <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="All Professors" href="all-professors.html"><span class="mini-sub-pro">All Supervisors</span></a></li>
-                                <li><a title="Add Professor" href="add-professor.html"><span class="mini-sub-pro">Add Supervisor</span></a></li>
-                                <!--<li><a title="Edit Professor" href="edit-professor.html"><span class="mini-sub-pro">Edit Supervisor</span></a></li>-->
-                                <!--<li><a title="Professor Profile" href="professor-profile.html"><span class="mini-sub-pro">Supervisor Profile</span></a></li>-->
-                            </ul>
+                        <li>
+                            <a title="Landing Page" href="events.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Event</span></a>
                         </li>
                         <li>
-                            <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Students</span></a>
+                            <a class="has-arrow" href="all-professors.php" aria-expanded="false"><span class="educate-icon educate-professor icon-wrap"></span> <span class="mini-click-non">Supervisors</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="All Students" href="all-students.html"><span class="mini-sub-pro">All Students</span></a></li>
+                                <li><a title="All Professors" href="all-professors.php"><span class="mini-sub-pro">All Supervisors</span></a></li>
+                                <li><a title="Add Professor" href="add-professor.php"><span class="mini-sub-pro">Add Supervisor</span></a></li>
+                                <!--<li><a title="Edit Professor" href="edit-professor.html"><span class="mini-sub-pro">Edit Professor</span></a></li>-->
+                                <!--<li><a title="Professor Profile" href="professor-profile.html"><span class="mini-sub-pro">Professor Profile</span></a></li>-->
+                            </ul>
+                        </li>
+                        <li class="active">
+                            <a class="has-arrow" href="all-students.php" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Students</span></a>
+                            <ul class="submenu-angle" aria-expanded="false">
+                                <li><a title="All Students" href="all-students.php"><span class="mini-sub-pro">All Students</span></a></li>
                                 <li><a title="Add Students" href="add-student.html"><span class="mini-sub-pro">Add Student</span></a></li>
                                 <!--<li><a title="Edit Students" href="edit-student.html"><span class="mini-sub-pro">Edit Student</span></a></li>-->
                                 <!--<li><a title="Students Profile" href="student-profile.html"><span class="mini-sub-pro">Student Profile</span></a></li>-->
                             </ul>
                         </li>
                         <!--<li>-->
-                            <!--<a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-course icon-wrap"></span> <span class="mini-click-non">Deliverables</span></a>-->
+                            <!--<a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-course icon-wrap"></span> <span class="mini-click-non">Courses</span></a>-->
                             <!--<ul class="submenu-angle" aria-expanded="false">-->
-                                <!--<li><a title="All Courses" href="all-courses.html"><span class="mini-sub-pro">All Deliverables</span></a></li>-->
-                                <!--<li><a title="Add Courses" href="add-course.html"><span class="mini-sub-pro">Add Deliverables</span></a></li>-->
-                                <!--<li><a title="Edit Courses" href="edit-course.html"><span class="mini-sub-pro">Edit Deliverables</span></a></li>-->
-                                <!--&lt;!&ndash;<li><a title="Courses Profile" href="course-info.html"><span class="mini-sub-pro">Courses Info</span></a></li>&ndash;&gt;-->
-                                <!--&lt;!&ndash;<li><a title="course Payment" href="course-payment.html"><span class="mini-sub-pro">Courses Payment</span></a></li>&ndash;&gt;-->
+                                <!--<li><a title="All Courses" href="all-courses.html"><span class="mini-sub-pro">All Courses</span></a></li>-->
+                                <!--<li><a title="Add Courses" href="add-course.html"><span class="mini-sub-pro">Add Course</span></a></li>-->
+                                <!--<li><a title="Edit Courses" href="edit-course.html"><span class="mini-sub-pro">Edit Course</span></a></li>-->
+                                <!--<li><a title="Courses Profile" href="course-info.html"><span class="mini-sub-pro">Courses Info</span></a></li>-->
+                                <!--<li><a title="course Payment" href="course-payment.html"><span class="mini-sub-pro">Courses Payment</span></a></li>-->
                             <!--</ul>-->
                         <!--</li>-->
                         <li>
                             <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Materials</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
                                 <li><a title="All Library" href="library-assets.html"><span class="mini-sub-pro">All Materials</span></a></li>
-                                <li><a title="Add Library" href="add-library-assets.html"><span class="mini-sub-pro">Add Materials</span></a></li>
+                                <li><a title="Add Library" href="add-library-assets.html"><span class="mini-sub-pro">Add Material</span></a></li>
                                 <li><a title="Edit Library" href="edit-library-assets.html"><span class="mini-sub-pro">Edit Materials</span></a></li>
                             </ul>
                         </li>
@@ -398,7 +392,7 @@
                                                 <li class="nav-item">
                                                     <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
 															<img src="img/product/pro4.jpg" alt="" />
-															<span class="admin-name" id="UnameField"> </span>
+															<span class="admin-name" id="UnameField"></span>
 															<i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
 														</a>
                                                     <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
@@ -410,10 +404,10 @@
                                                         <!--</li>-->
                                                         <!--<li><a href="#"><span class="edu-icon edu-settings author-log-ic"></span>Settings</a>-->
                                                         <!--</li>-->
-                                                        <li><a id="logoutBtn"><span class="edu-icon edu-locked author-log-ic"></span>Log Out</a>
+                                                        <li><a href="logoutBtn"><span class="edu-icon edu-locked author-log-ic"></span>Log Out</a>
                                                         </li>
                                                     </ul>
-                                                <!--</li>-->
+                                                </li>
                                                 <!--<li class="nav-item nav-setting-open"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="educate-icon educate-menu"></i></a>-->
 
                                                     <!--<div role="menu" class="admintab-wrap menu-setting-wrap menu-setting-wrap-bg dropdown-menu animated zoomIn">-->
@@ -422,9 +416,9 @@
                                                             <!--</li>-->
                                                             <!--<li><a data-toggle="tab" href="#Projects">Projects</a>-->
                                                             <!--</li>-->
-                                                            <!--&lt;!&ndash;<li><a data-toggle="tab" href="#Settings">Settings</a>&ndash;&gt;-->
-                                                            <!--&lt;!&ndash;</li>&ndash;&gt;-->
-                                                        <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                                                            <!--<li><a data-toggle="tab" href="#Settings">Settings</a>-->
+                                                            <!--</li>-->
+                                                        <!--</ul>-->
 
                                                         <!--<div class="tab-content custom-bdr-nt">-->
                                                             <!--<div id="Notes" class="tab-pane fade in active">-->
@@ -850,7 +844,7 @@
                                                             <!--</div>-->
                                                         <!--</div>-->
                                                     <!--</div>-->
-                                                </li>
+                                                <!--</li>-->
                                             </ul>
                                         </div>
                                     </div>
@@ -877,29 +871,29 @@
                                                 <!--<li><a href="widgets.html">Widgets</a></li>-->
                                             </ul>
                                         </li>
-                                        <!--<li><a href="events.html">Event</a></li>-->
+                                        <li><a href="events.html">Event</a></li>
                                         <li><a data-toggle="collapse" data-target="#demoevent" href="#">Supervisors <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             <ul id="demoevent" class="collapse dropdown-header-top">
-                                                <li><a href="all-professors.html">All Supervisors</a>
+                                                <li><a href="all-professors.php">All Supervisors</a>
                                                 </li>
-                                                <li><a href="add-professor.html">Add Supervisors</a>
+                                                <li><a href="add-professor.php">Add Supervisor</a>
                                                 </li>
-                                                <!--<li><a href="edit-professor.html">Edit Supervisors</a>-->
+                                                <!--<li><a href="edit-professor.html">Edit Professor</a>-->
                                                 <!--</li>-->
-                                                <!--<li><a href="professor-profile.html">Supervisors Profile</a>-->
+                                                <!--<li><a href="professor-profile.html">Professor Profile</a>-->
                                                 <!--</li>-->
                                             </ul>
                                         </li>
                                         <li><a data-toggle="collapse" data-target="#demopro" href="#">Students <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             <ul id="demopro" class="collapse dropdown-header-top">
-                                                <li><a href="all-students.html">All Students</a>
+                                                <li><a href="all-students.php">All Students</a>
                                                 </li>
                                                 <li><a href="add-student.html">Add Student</a>
                                                 </li>
-                                                <li><a href="edit-student.html">Edit Student</a>
-                                                </li>
-                                                <li><a href="student-profile.html">Student Profile</a>
-                                                </li>
+                                                <!--<li><a href="edit-student.html">Edit Student</a>-->
+                                                <!--</li>-->
+                                                <!--<li><a href="student-profile.html">Student Profile</a>-->
+                                                <!--</li>-->
                                             </ul>
                                         </li>
                                         <!--<li><a data-toggle="collapse" data-target="#democrou" href="#">Courses <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>-->
@@ -916,9 +910,9 @@
                                                 <!--</li>-->
                                             <!--</ul>-->
                                         <!--</li>-->
-                                        <li><a data-toggle="collapse" data-target="#demolibra" href="#">Material <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                        <li><a data-toggle="collapse" data-target="#demolibra" href="#">Materials <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             <ul id="demolibra" class="collapse dropdown-header-top">
-                                                <li><a href="library-assets.html">All Materials</a>
+                                                <li><a href="library-assets.html">Materials</a>
                                                 </li>
                                                 <li><a href="add-library-assets.html">Add Materials</a>
                                                 </li>
@@ -1050,7 +1044,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="breadcome-list single-page-breadcome">
+                            <div class="breadcome-list">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                         <div class="breadcome-heading">
@@ -1064,7 +1058,7 @@
                                         <ul class="breadcome-menu">
                                             <li><a href="#">Home</a> <span class="bread-slash">/</span>
                                             </li>
-                                            <li><span class="bread-blod">Add Supervisor</span>
+                                            <li><span class="bread-blod">All Students</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -1075,179 +1069,135 @@
                 </div>
             </div>
         </div>
-        <!-- Single pro tab review Start-->
-        <div class="single-pro-review-area mt-t-30 mg-b-15">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-payment-inner-st">
-                            <ul id="myTabedu1" class="tab-review-design">
-                                <li class="active"><a href="#description">Basic Information</a></li>
-                                <!--<li><a href="#reviews"> Account Information</a></li>-->
-                                <!--<li><a href="#INFORMATION">Social Information</a></li>-->
-                            </ul>
-                            <div id="myTabContent" class="tab-content custom-product-edit">
-                                <div class="product-tab-list tab-pane fade active in" id="description">
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="review-content-section">
-                                                <div id="dropzone1" class="pro-ad">
-                                                    <form action="/upload" class="dropzone dropzone-custom needsclick add-professors" id="demo1-upload">
-                                                        <div class="row">
-                                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                                <div class="form-group">
-                                                                    <input name="fname" type="text" class="form-control" placeholder="First Name">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <input name="lname" type="text" class="form-control" placeholder="Last Name">
-                                                                </div>
-                                                                <!--<div class="form-group">-->
-                                                                    <!--<input name="address" type="text" class="form-control" placeholder="Address">-->
-                                                                <!--</div>-->
-                                                                <div class="form-group">
-                                                                    <input name="admissionno" type="number" class="form-control" placeholder="Admission Number">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <input name="department" type="text" class="form-control" placeholder="Department">
-                                                                </div>
-                                                                <!--<div class="form-group">-->
-                                                                    <!--<input name="finish" id="finish" type="text" class="form-control" placeholder="Date of Birth">-->
-                                                                <!--</div>-->
-                                                                <!--<div class="form-group">-->
-                                                                    <!--<input name="postcode" id="postcode" type="text" class="form-control" placeholder="Postcode">-->
-                                                                <!--</div>-->
-                                                                <!--<div class="form-group alert-up-pd">-->
-                                                                    <!--<div class="dz-message needsclick download-custom">-->
-                                                                        <!--<i class="fa fa-download edudropnone" aria-hidden="true"></i>-->
-                                                                        <!--<h2 class="edudropnone">Drop image here or click to upload.</h2>-->
-                                                                        <!--<p class="edudropnone"><span class="note needsclick">(This is just a demo dropzone. Selected image is <strong>not</strong> actually uploaded.)</span>-->
-                                                                        <!--</p>-->
-                                                                        <!--<input name="imageico" class="hd-pro-img" type="text" />-->
-                                                                    <!--</div>-->
-                                                                <!--</div>-->
-                                                            <!--</div>-->
-                                                            <!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">-->
 
-                                                                <!--<div class="form-group res-mg-t-15">-->
-                                                                    <!--<textarea name="description" placeholder="Description"></textarea>-->
-                                                                <!--</div>-->
-                                                                <!--<div class="form-group">-->
-                                                                    <!--<select name="gender" class="form-control">-->
-																		<!--<option value="none" selected="" disabled="">Select Gender</option>-->
-																		<!--<option value="0">Male</option>-->
-																		<!--<option value="1">Female</option>-->
-																	<!--</select>-->
-                                                                <!--</div>-->
-                                                                <!--<div class="form-group">-->
-                                                                    <!--<select name="country" class="form-control">-->
-																			<!--<option value="none" selected="" disabled="">Select country</option>-->
-																			<!--<option value="0">India</option>-->
-																			<!--<option value="1">Pakistan</option>-->
-																			<!--<option value="2">Amerika</option>-->
-																			<!--<option value="3">China</option>-->
-																			<!--<option value="4">Dubai</option>-->
-																			<!--<option value="5">Nepal</option>-->
-																		<!--</select>-->
-                                                                <!--</div>-->
-                                                                <!--<div class="form-group">-->
-                                                                    <!--<select name="state" class="form-control">-->
-																			<!--<option value="none" selected="" disabled="">Select state</option>-->
-																			<!--<option value="0">Gujarat</option>-->
-																			<!--<option value="1">Maharastra</option>-->
-																			<!--<option value="2">Rajastan</option>-->
-																			<!--<option value="3">Maharastra</option>-->
-																			<!--<option value="4">Rajastan</option>-->
-																			<!--<option value="5">Gujarat</option>-->
-																		<!--</select>-->
-                                                                <!--</div>-->
-                                                                <!--<div class="form-group">-->
-                                                                    <!--<select name="city" class="form-control">-->
-																			<!--<option value="none" selected="" disabled="">Select city</option>-->
-																			<!--<option value="0">Surat</option>-->
-																			<!--<option value="1">Baroda</option>-->
-																			<!--<option value="2">Navsari</option>-->
-																			<!--<option value="3">Baroda</option>-->
-																			<!--<option value="4">Surat</option>-->
-																		<!--</select>-->
-                                                                <!--</div>-->
-                                                                <!--<div class="form-group">-->
-                                                                    <!--<input name="website" type="text" class="form-control" placeholder="Website URL">-->
-                                                                <!--</div>-->
-                                                            <!--</div>-->
-                                                        <!--</div>-->
-                                                        <div class="row">
-                                                            <div class="col-lg-12">
-                                                                <div class="payment-adress">
-                                                                    <button type="submit" class="btn btn-primary waves-effect waves-light">Submit</button>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
+            <div class="container-fluid">
+                <div class="contacts-area mg-b-15">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="sparkline12-list mg-b-30">
+                                <div class="sparkline12-hd">
+                                    <div class="main-sparkline12-hd">
+                                        <h1>ALL STUDENTS</h1>
                                     </div>
                                 </div>
-                                <!--<div class="product-tab-list tab-pane fade" id="reviews">-->
-                                    <!--<div class="row">-->
-                                        <!--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">-->
-                                            <!--<div class="review-content-section">-->
-                                                <!--<div class="row">-->
-                                                    <!--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">-->
-                                                        <!--<form id="acount-infor" action="#" class="acount-infor">-->
-                                                            <!--<div class="devit-card-custom">-->
-                                                                <!--<div class="form-group">-->
-                                                                    <!--<input type="text" class="form-control" name="email" placeholder="Email">-->
-                                                                <!--</div>-->
-                                                                <!--<div class="form-group">-->
-                                                                    <!--<input name="phoneno" type="number" class="form-control" placeholder="Phone">-->
-                                                                <!--</div>-->
-                                                                <!--<div class="form-group">-->
-                                                                    <!--<input name="password" type="password" class="form-control" placeholder="Password">-->
-                                                                <!--</div>-->
-                                                                <!--<div class="form-group">-->
-                                                                    <!--<input name="confarmpassword" type="password" class="form-control" placeholder="Confirm Password">-->
-                                                                <!--</div>-->
-                                                                <!--<a href="#" class="btn btn-primary waves-effect waves-light">Submit</a>-->
-                                                            <!--</div>-->
-                                                        <!--</form>-->
-                                                    <!--</div>-->
-                                                <!--</div>-->
-                                            <!--</div>-->
-                                        <!--</div>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--<div class="product-tab-list tab-pane fade" id="INFORMATION">-->
-                                    <!--<div class="row">-->
-                                        <!--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">-->
-                                            <!--<div class="review-content-section">-->
-												<!--<div class="row">-->
-													<!--<div class="col-lg-12">-->
-														<!--<div class="devit-card-custom">-->
-															<!--<div class="form-group">-->
-																<!--<input type="url" class="form-control" placeholder="Facebook URL">-->
-															<!--</div>-->
-															<!--<div class="form-group">-->
-																<!--<input type="url" class="form-control" placeholder="Twitter URL">-->
-															<!--</div>-->
-															<!--<div class="form-group">-->
-																<!--<input type="url" class="form-control" placeholder="Google Plus">-->
-															<!--</div>-->
-															<!--<div class="form-group">-->
-																<!--<input type="url" class="form-control" placeholder="Linkedin URL">-->
-															<!--</div>-->
-															<!--<button type="submit" class="btn btn-primary waves-effect waves-light">Submit</button>-->
-														<!--</div>-->
-													<!--</div>-->
-												<!--</div>-->
-                                            <!--</div>-->
-                                        <!--</div>-->
-                                    <!--</div>-->
+                                <div class="sparkline12-graph">
+                                    <div class="static-table-list">
+                                        <table class="table hover-table">
+                                            <thead>
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Admission Number</th>
+                                                <th>First Name</th>
+                                                <th>Last Name</th>
+                                                <th>Email</th>
+                                            </tr>
+                                            </thead>
+                                            <?php include 'php/getUsers.php'?>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                <!--<div class="row">-->
+                    <!--<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">-->
+                        <!--<div class="student-inner-std res-mg-b-30">-->
+                            <!--<div class="student-img">-->
+                                <!--<img src="img/student/1.jpg" alt="" />-->
+                            <!--</div>-->
+                            <!--<div class="student-dtl">-->
+                                <!--<h2>Alexam Angles</h2>-->
+                                <!--<p class="dp">Computer Science</p>-->
+                                <!--<p class="dp-ag"><b>Age:</b> 20 Years</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">-->
+                        <!--<div class="student-inner-std res-mg-b-30">-->
+                            <!--<div class="student-img">-->
+                                <!--<img src="img/student/2.jpg" alt="" />-->
+                            <!--</div>-->
+                            <!--<div class="student-dtl">-->
+                                <!--<h2>Alexam Angles</h2>-->
+                                <!--<p class="dp">Computer Science</p>-->
+                                <!--<p class="dp-ag"><b>Age:</b> 20 Years</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">-->
+                        <!--<div class="student-inner-std res-mg-b-30 res-tablet-mg-t-30 dk-res-t-pro-30">-->
+                            <!--<div class="student-img">-->
+                                <!--<img src="img/student/3.jpg" alt="" />-->
+                            <!--</div>-->
+                            <!--<div class="student-dtl">-->
+                                <!--<h2>Alexam Angles</h2>-->
+                                <!--<p class="dp">Computer Science</p>-->
+                                <!--<p class="dp-ag"><b>Age:</b> 20 Years</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">-->
+                        <!--<div class="student-inner-std res-tablet-mg-t-30 dk-res-t-pro-30">-->
+                            <!--<div class="student-img">-->
+                                <!--<img src="img/student/4.jpg" alt="" />-->
+                            <!--</div>-->
+                            <!--<div class="student-dtl">-->
+                                <!--<h2>Alexam Angles</h2>-->
+                                <!--<p class="dp">Computer Science</p>-->
+                                <!--<p class="dp-ag"><b>Age:</b> 20 Years</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="row">-->
+                    <!--<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">-->
+                        <!--<div class="student-inner-std mg-t-30">-->
+                            <!--<div class="student-img">-->
+                                <!--<img src="img/student/1.jpg" alt="" />-->
+                            <!--</div>-->
+                            <!--<div class="student-dtl">-->
+                                <!--<h2>Alexam Angles</h2>-->
+                                <!--<p class="dp">Computer Science</p>-->
+                                <!--<p class="dp-ag"><b>Age:</b> 20 Years</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">-->
+                        <!--<div class="student-inner-std mg-t-30">-->
+                            <!--<div class="student-img">-->
+                                <!--<img src="img/student/2.jpg" alt="" />-->
+                            <!--</div>-->
+                            <!--<div class="student-dtl">-->
+                                <!--<h2>Alexam Angles</h2>-->
+                                <!--<p class="dp">Computer Science</p>-->
+                                <!--<p class="dp-ag"><b>Age:</b> 20 Years</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">-->
+                        <!--<div class="student-inner-std mg-t-30">-->
+                            <!--<div class="student-img">-->
+                                <!--<img src="img/student/3.jpg" alt="" />-->
+                            <!--</div>-->
+                            <!--<div class="student-dtl">-->
+                                <!--<h2>Alexam Angles</h2>-->
+                                <!--<p class="dp">Computer Science</p>-->
+                                <!--<p class="dp-ag"><b>Age:</b> 20 Years</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">-->
+                        <!--<div class="student-inner-std mg-t-30">-->
+                            <!--<div class="student-img">-->
+                                <!--<img src="img/student/4.jpg" alt="" />-->
+                            <!--</div>-->
+                            <!--<div class="student-dtl">-->
+                                <!--<h2>Alexam Angles</h2>-->
+                                <!--<p class="dp">Computer Science</p>-->
+                                <!--<p class="dp-ag"><b>Age:</b> 20 Years</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
             </div>
         </div>
         <div class="footer-copyright-area">
@@ -1299,30 +1249,12 @@
 		============================================ -->
     <script src="js/sparkline/jquery.sparkline.min.js"></script>
     <script src="js/sparkline/jquery.charts-sparkline.js"></script>
+    <script src="js/sparkline/sparkline-active.js"></script>
     <!-- calendar JS
 		============================================ -->
     <script src="js/calendar/moment.min.js"></script>
     <script src="js/calendar/fullcalendar.min.js"></script>
     <script src="js/calendar/fullcalendar-active.js"></script>
-    <!-- maskedinput JS
-		============================================ -->
-    <script src="js/jquery.maskedinput.min.js"></script>
-    <script src="js/masking-active.js"></script>
-    <!-- datepicker JS
-		============================================ -->
-    <script src="js/datepicker/jquery-ui.min.js"></script>
-    <script src="js/datepicker/datepicker-active.js"></script>
-    <!-- form validate JS
-		============================================ -->
-    <script src="js/form-validation/jquery.form.min.js"></script>
-    <script src="js/form-validation/jquery.validate.min.js"></script>
-    <script src="js/form-validation/form-active.js"></script>
-    <!-- dropzone JS
-		============================================ -->
-    <script src="js/dropzone/dropzone.js"></script>
-    <!-- tab JS
-		============================================ -->
-    <script src="js/tab.js"></script>
     <!-- plugins JS
 		============================================ -->
     <script src="js/plugins.js"></script>
@@ -1332,9 +1264,8 @@
     <!-- tawk chat JS
 		============================================ -->
     <script src="js/tawk-chat.js"></script>
-
-    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"> </script>
-    <script src="js/addProfessor.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"> </script>
+        <script src="js/allStudents.js"></script>
 
 </body>
 

@@ -22,7 +22,7 @@ $password = 'SAMAjuwa04';
 $conn = mysqli_connect($host,$username,$password,$db);
 
 /*$comment = $_POST['comment'];*/
-$sql = "select * from pms_users where pms_user_type = 'Student'";
+$sql = "select * from pms_users where pms_user_type = 'Supervisor'";
 $result = mysqli_query($conn,$sql);
 if (mysqli_num_rows($result) > 0){
     while($row = $result->fetch_array()){
