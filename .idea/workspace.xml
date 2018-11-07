@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8af330f7-4403-4a8a-a679-2eecea82bf5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/addProfessor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/addStudents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/allProfessors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/allStudents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/libraryAssets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/getUsers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add-library-assets.html" beforeDir="false" afterPath="$PROJECT_DIR$/add-library-assets.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add-professor.html" beforeDir="false" afterPath="$PROJECT_DIR$/add-professor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add-student.html" beforeDir="false" afterPath="$PROJECT_DIR$/add-student.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all-professors.html" beforeDir="false" afterPath="$PROJECT_DIR$/all-professors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all-students.html" beforeDir="false" afterPath="$PROJECT_DIR$/all-students.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-0.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-assets.html" beforeDir="false" afterPath="$PROJECT_DIR$/library-assets.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,13 +38,6 @@
         <item name="Xena" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="PMSDB: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Xena" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="PMSDB: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="pms_users: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -236,7 +218,7 @@
       <file leaf-file-name="add-professor.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/add-professor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2824">
+            <state relative-caret-position="3927">
               <caret line="231" column="93" selection-start-line="231" selection-start-column="93" selection-end-line="231" selection-end-column="93" />
             </state>
           </provider>
@@ -245,45 +227,53 @@
       <file leaf-file-name="index-0.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index-0.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-648">
-              <caret line="399" column="94" selection-start-line="399" selection-start-column="94" selection-end-line="399" selection-end-column="94" />
+            <state relative-caret-position="17">
+              <caret line="1352" selection-start-line="1352" selection-end-line="1353" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexMain.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="all-professors.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/all-professors.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23308">
+              <caret line="1433" column="16" selection-start-line="1433" selection-start-column="16" selection-end-line="1434" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getUsers.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/getUsers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a7ba18b3-2de3-48c6-bc58-b90b6fb426f9/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createUpdate.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/createUpdate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indexMain.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/indexMain.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-388">
-              <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add-library-assets.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/add-library-assets.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1697">
-              <caret line="1018" selection-start-line="1018" selection-end-line="1018" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addLibraryAsset.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/addLibraryAsset.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="37" column="24" lean-forward="true" selection-end-line="40" />
+            <state relative-caret-position="51">
+              <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -291,17 +281,8 @@
       <file leaf-file-name="edit-library-assets.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edit-library-assets.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1559">
+            <state relative-caret-position="3927">
               <caret line="231" column="93" selection-start-line="231" selection-start-column="93" selection-end-line="231" selection-end-column="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editLibraryAsset.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/editLibraryAsset.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -309,7 +290,7 @@
       <file leaf-file-name="all-students.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/all-students.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="3825">
               <caret line="225" column="93" selection-start-line="225" selection-start-column="93" selection-end-line="225" selection-end-column="93" />
             </state>
           </provider>
@@ -318,17 +299,8 @@
       <file leaf-file-name="add-student.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/add-student.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
+            <state relative-caret-position="3927">
               <caret line="231" column="93" selection-start-line="231" selection-start-column="93" selection-end-line="231" selection-end-column="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="libraryAssets.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/libraryAssets.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -393,6 +365,8 @@
         <option value="$PROJECT_DIR$/add-student.html" />
         <option value="$PROJECT_DIR$/add-professor.html" />
         <option value="$PROJECT_DIR$/index-0.html" />
+        <option value="$PROJECT_DIR$/php/getUsers.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a7ba18b3-2de3-48c6-bc58-b90b6fb426f9/console.sql" />
       </list>
     </option>
   </component>
@@ -429,6 +403,11 @@
               <item name="fyps3.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="fyps3.0" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fyps3.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fyps3.0" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -480,27 +459,28 @@
       <workItem from="1541505230569" duration="1030000" />
       <workItem from="1541506501394" duration="3352000" />
       <workItem from="1541511463592" duration="15177000" />
-      <workItem from="1541567161509" duration="6957000" />
+      <workItem from="1541567161509" duration="7301000" />
+      <workItem from="1541575177772" duration="2207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86870000" />
+    <option name="totallyTimeSpent" value="89421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13993949" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5024233" side_tool="true" weight="0.3488372" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3634895" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49757674" visible="true" weight="0.34674922" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32817337" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13993949" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.36308622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49757674" weight="0.34674922" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="DB Execution Console" order="13" />
@@ -512,28 +492,27 @@
       <window_info anchor="right" id="JSON Viewer" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32876712" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24281392" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="6" />
       <window_info id="Favorites" order="0" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -544,13 +523,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/addStudents.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/allStudents.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -576,16 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15028">
           <caret line="884" column="96" selection-start-line="884" selection-start-column="96" selection-end-line="884" selection-end-column="96" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,7 +616,6 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6b798fee-a689-4cfe-a1e9-41d05548f8ee/console.sql" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a7ba18b3-2de3-48c6-bc58-b90b6fb426f9/console_1.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a7ba18b3-2de3-48c6-bc58-b90b6fb426f9/console.sql" />
     <entry file="file://$PROJECT_DIR$/preloader.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24378">
@@ -694,13 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15204">
           <caret line="1086" column="64" selection-start-line="1086" selection-start-column="64" selection-end-line="1086" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/createUpdate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="181" selection-start-line="22" selection-start-column="181" selection-end-line="22" selection-end-column="181" />
         </state>
       </provider>
     </entry>
@@ -781,13 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all-professors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24361">
-          <caret line="1433" column="16" selection-start-line="1433" selection-start-column="16" selection-end-line="1434" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/allProfessors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -825,59 +772,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/addLibraryAsset.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="37" column="24" lean-forward="true" selection-end-line="40" />
+        <state relative-caret-position="629">
+          <caret line="37" column="24" selection-end-line="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/editLibraryAsset.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="680">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/add-library-assets.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1697">
+        <state relative-caret-position="17306">
           <caret line="1018" selection-start-line="1018" selection-end-line="1018" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/edit-library-assets.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1559">
+        <state relative-caret-position="3927">
           <caret line="231" column="93" selection-start-line="231" selection-start-column="93" selection-end-line="231" selection-end-column="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/all-students.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="3825">
           <caret line="225" column="93" selection-start-line="225" selection-start-column="93" selection-end-line="225" selection-end-column="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/add-student.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
+        <state relative-caret-position="3927">
           <caret line="231" column="93" selection-start-line="231" selection-start-column="93" selection-end-line="231" selection-end-column="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/add-professor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2824">
+        <state relative-caret-position="3927">
           <caret line="231" column="93" selection-start-line="231" selection-start-column="93" selection-end-line="231" selection-end-column="93" />
         </state>
       </provider>
@@ -885,17 +822,45 @@
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index-0.html">
+    <entry file="file://$PROJECT_DIR$/js/indexMain.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648">
-          <caret line="399" column="94" selection-start-line="399" selection-start-column="94" selection-end-line="399" selection-end-column="94" />
+        <state relative-caret-position="51">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/indexMain.js">
+    <entry file="file://$PROJECT_DIR$/index-0.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-388">
-          <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+        <state relative-caret-position="17">
+          <caret line="1352" selection-start-line="1352" selection-end-line="1353" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all-professors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23308">
+          <caret line="1433" column="16" selection-start-line="1433" selection-start-column="16" selection-end-line="1434" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/createUpdate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a7ba18b3-2de3-48c6-bc58-b90b6fb426f9/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/getUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
