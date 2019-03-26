@@ -16,7 +16,7 @@ $user_id = $_POST['Admission Number'];*/
 $host = '159.89.135.168';
 $db = 'PMSDB';
 $username = 'sarahmwangi';
-$password = 'SAMAjuwa04';
+$password = 'S******a04';
 
 
 $conn = mysqli_connect($host,$username,$password,$db);
